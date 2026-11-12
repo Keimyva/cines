@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Cines de Costa Rica | deleFOCO</title>
+    <meta name="description" content="Directorio de cines de Costa Rica: cadenas, sedes únicas y salas independientes, con fotos, ubicación y horarios. Una iniciativa de deleFOCO Comunidad Audiovisual.">
+    <meta name="theme-color" content="#080808" id="metaTheme">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="bgfilm" aria-hidden="true"><i class="f1"></i><i class="f2"></i><i class="f3"></i></div>
+
+    <header>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">&#9776;</button>
+        <a class="logo" href="https://delefoco.com/" aria-label="deleFOCO"><img src="assets/logo-delefoco.png" alt="deleFOCO Comunidad Audiovisual"></a>
+        <nav id="mainNav">
+            <a href="#cadenas" data-t="n1"></a>
+            <a href="#indep" data-t="n3"></a>
+            <a href="#contacto" data-t="n4"></a>
+        </nav>
+        <div class="header-actions">
+            <button class="hbtn" id="lang" type="button" aria-label="Cambiar idioma" title="Cambiar idioma">EN</button>
+            <button class="hbtn" id="theme" type="button" aria-label="Cambiar tema" title="Cambiar tema"></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="hero-reel" aria-hidden="true"></div>
+            <div class="hero-red" aria-hidden="true"></div>
+            <div class="in hero-grid">
+                <div class="hero-copy">
+                    <div class="tag"><i></i><span data-t="tag"></span></div>
+                    <h1 data-h="h1"></h1>
+                    <p data-t="lead"></p>
+                    <div class="hero-cta">
+                        <a class="solid arrow" href="#cadenas" data-t="cta"></a>
+                        <a class="solid line" href="#indep" data-t="cta2"></a>
+                        <a class="solid line" href="#contacto" data-t="cta3"></a>
+                    </div>
+                    <ol class="hero-steps">
+                        <li><b>01</b><span data-t="s1"></span></li>
+                        <li><b>02</b><span data-t="s2"></span></li>
+                        <li><b>03</b><span data-t="s3"></span></li>
+                    </ol>
+                </div>
+                <div class="hero-stage">
+                    <div class="frame" id="hFrame" aria-roledescription="carrusel" aria-label="Cines destacados">
+                        <div class="track" id="hTrack"></div>
+                        <span class="chip"><i></i><span data-t="feat"></span></span>
+                        <button class="arr prev" id="hPrev" aria-label="Anterior">&lsaquo;</button>
+                        <button class="arr next" id="hNext" aria-label="Siguiente">&rsaquo;</button>
+                        <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+                        <div class="dots" id="hDots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="marquee" aria-hidden="true">
+            <div class="mq-track" id="mq"></div>
+        </div>
+
+        <section id="cadenas">
+            <div class="in">
+                <div class="section-kicker" data-t="k1">01 — DIRECTORIO</div>
+                <h2 data-t="c1"></h2>
+                <p class="sub" data-t="c1s"></p>
+                <div class="grid" id="g1"></div>
+            </div>
+        </section>
+
+        <section id="indep" class="independent">
+            <div class="in">
+                <div class="section-kicker" data-t="k2">02 — OTRAS SALAS</div>
+                <h2 data-t="c3"></h2>
+                <p class="sub" data-t="c3s"></p>
+                <div class="grid" id="g3"></div>
+                <div class="note" data-t="note"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-grid">
+            <div class="footer-brand"><img src="assets/logo-delefoco.png" alt="deleFOCO">
+                <p data-t="ft">Comunidad Audiovisual · Conectamos talento, profesionales, proyectos y oportunidades.</p>
+            </div>
+            <div>
+                <h3 data-t="fh1">IMPORTANTE</h3><a href="https://delefoco.com/" target="_blank" rel="noopener" data-t="f1">Nosotros</a><a href="https://delefoco.com/servicios/" target="_blank" rel="noopener" data-t="f2">Servicios</a><a href="https://delefoco.com/?action=p&id=13108"
+                    target="_blank" rel="noopener" data-t="f3">Cartelera</a><a href="https://delefoco.com/servicios/" target="_blank" rel="noopener" data-t="f4">Contacto</a></div>
+            <div>
+                <h3 data-t="fh2">CONTACTO</h3>
+                <p> San Jose, Costa Rica</p>
+                <p> <a href="tel:+50622244696">+506 2224-4696</a></p>
+                <p> <a href="https://wa.me/50686823430" target="_blank" rel="noopener">+506 8682-3430 · WhatsApp</a></p>
+                <p> <a href="mailto:comunidad@delefoco.com">comunidad@delefoco.com</a></p>
+            </div>
+            <div>
+                <h3 data-t="fh3">SÍGUENOS</h3><a href="https://www.facebook.com/delefoco" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/delefoco/" target="_blank" rel="noopener">Instagram</a><a href="https://twitter.com/delefoco" target="_blank"
+                    rel="noopener">Twitter</a><a href="https://wa.me/50686823430" target="_blank" rel="noopener">WhatsApp</a></div>
+        </div>
+        <div class="copyright">&copy; 2026 deleFOCO · <a href="https://delefoco.com" target="_blank" rel="noopener">delefoco.com</a></div>
+    </footer>
+
+    <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="pTitle" hidden>
+        <div class="pbg" id="pBg"></div>
+        <div class="pwrap">
+            <div class="ptop">
+                <button class="btn light" id="pClose" aria-label="Cerrar">&times;</button>
+                <div><small id="pKind"></small>
+                    <h2 id="pTitle"></h2>
+                </div>
+            </div>
+            <p class="pdesc" id="pDesc"></p>
+            <div class="tabs" id="pTabs" role="tablist"></div>
+            <div class="pbody">
+                <div class="gal">
+                    <div class="big" id="pBig"></div>
+                    <div class="thumbs" id="pThumbs"></div>
+                </div>
+                <div class="info" id="pInfo"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
